@@ -7,7 +7,6 @@ const data = require('./routes/api/data');
 const users = require('./routes/api/users');
 const profile = require('./routes/api/profile');
 const posts = require('./routes/api/posts');
-const assert = require('assert');
 
 
 const app = express();
@@ -34,7 +33,7 @@ app.use('/api/posts', posts);
 
   // perform actions on the collection object
 
-  const MongoClient = require('mongodb').MongoClient;
+ /*  const MongoClient = require('mongodb').MongoClient;
   const uri = "mongodb+srv://aimeelynn2:poopy123@clusterapi-twvc0.gcp.mongodb.net/test?retryWrites=true";
   const client = new MongoClient(uri, { useNewUrlParser: true });
   client.connect(err => {
@@ -60,7 +59,7 @@ app.use('/api/posts', posts);
       // perform actions on the collection object
     
     });
-
+ */
 const port = process.env.PORT || 5000;
 
 app.listen(port, () => console.log(`Server running on port ${port}`));
