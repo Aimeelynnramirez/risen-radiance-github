@@ -9,7 +9,7 @@ Routes:
 
 | Route       |export         | endpoint |
 | ------------- |:-------------:| -----:|
-|  /api/data| data /test |
+|  /api/data| data  | /test
 | /api/profile  | profile   | /test |
 | /api/users | users   | /test |
 |  /api/posts| posts | /test|
